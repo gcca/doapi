@@ -1,0 +1,10 @@
+Checks: >
+  bugprone-*,cppcoreguidelines-*,cert-*,performace-*,portability-*,concurrency-*,
+  misc-*,-misc-non-private-member-variables-in-classes,
+  readability-*,-readability-identifier-length,-readability-isolate-declaration,
+  modernize-*,-modernize-use-trailing-return-type,
+  clang-*,
+  google-*,
+  llvm-*,-llvm-header-guard,
+  -bugprone-easily-swappable-parameters
+
